@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7C4CFF208F62B100B05489 /* DragDropClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C4CFE208F62B100B05489 /* DragDropClass.swift */; };
 		5B9C5115208F199C002A7FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5114208F199C002A7FC7 /* AppDelegate.swift */; };
-		5B9C5117208F199C002A7FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5116208F199C002A7FC7 /* ViewController.swift */; };
 		5B9C511A208F199C002A7FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C5118208F199C002A7FC7 /* Main.storyboard */; };
 		5B9C511C208F199E002A7FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C511B208F199E002A7FC7 /* Assets.xcassets */; };
 		5B9C511F208F199E002A7FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C511D208F199E002A7FC7 /* LaunchScreen.storyboard */; };
+		5B9C512B208F1A02002A7FC7 /* TopTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5126208F1A01002A7FC7 /* TopTable.swift */; };
+		5B9C512C208F1A02002A7FC7 /* BottomTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5127208F1A01002A7FC7 /* BottomTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B7C4CFE208F62B100B05489 /* DragDropClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropClass.swift; sourceTree = "<group>"; };
 		5B9C5111208F199C002A7FC7 /* DragDropTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDropTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9C5114208F199C002A7FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B9C5116208F199C002A7FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B9C5119208F199C002A7FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9C511B208F199E002A7FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9C511E208F199E002A7FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B9C5120208F199E002A7FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9C5126208F1A01002A7FC7 /* TopTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTable.swift; sourceTree = "<group>"; };
+		5B9C5127208F1A01002A7FC7 /* BottomTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		5B9C5113208F199C002A7FC7 /* DragDropTest */ = {
 			isa = PBXGroup;
 			children = (
+				5B7C4CFE208F62B100B05489 /* DragDropClass.swift */,
+				5B9C5127208F1A01002A7FC7 /* BottomTable.swift */,
+				5B9C5126208F1A01002A7FC7 /* TopTable.swift */,
 				5B9C5114208F199C002A7FC7 /* AppDelegate.swift */,
-				5B9C5116208F199C002A7FC7 /* ViewController.swift */,
 				5B9C5118208F199C002A7FC7 /* Main.storyboard */,
 				5B9C511B208F199E002A7FC7 /* Assets.xcassets */,
 				5B9C511D208F199E002A7FC7 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9C5117208F199C002A7FC7 /* ViewController.swift in Sources */,
+				5B9C512B208F1A02002A7FC7 /* TopTable.swift in Sources */,
+				5B9C512C208F1A02002A7FC7 /* BottomTable.swift in Sources */,
 				5B9C5115208F199C002A7FC7 /* AppDelegate.swift in Sources */,
+				5B7C4CFF208F62B100B05489 /* DragDropClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
